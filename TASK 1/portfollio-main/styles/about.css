@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(3, 3, 3);
+}
+
+#jay {
+    position: absolute;
+    left: 46px;
+    top: 20px;
+    color: red;
+}
+
+.menu-bar {
+    position: relative;
+    top: 68px;
+    left: 500px
+}
+
+.about {
+    display: flex;
+
+    display: inline-block;
+    background-color: rgb(94, 81, 65);
+    border-radius: 2px;
+    padding: 12px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 0;
+    border: 2px solid rgb(94, 81, 65);
+}
+
+.menu-bar>* {
+    display: inlie-flex;
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 11px;
+    padding: 3px;
+    margin: 8px;
+    font-size: large;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 72px;
+
+}
+
+.tleft {
+    float: inline-start;
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
+
+.top img {
+    float: right;
+    position: relative;
+    right: 100px;
+    height: 300px;
+    width: 600px;
+    top : 10px;
+    flex-shrink: inherit;
+
+
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 0%;
+    position: relative;
+    bottom: 89px;
+
+}
+
+h2 {
+    font-size: 120px;
+    color: red;
+}
+
+footer {
+    position: relative;
+    top: 50px;
+    float: right;
+    right: 20px;
+}
+
+.tleft p {
+    color: pink;
+    position: relative;
+    left: 20px;
+}

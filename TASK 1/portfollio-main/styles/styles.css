@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-bar a,a,a,a,a{
+   
+    background-color: antiquewhite;
+    border-radius: 11px;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+
+}
+.menu-bar{
+    position: absolute;
+left : 82px;
+top: 120px;
+padding: 0px  0 0 200px;
+
+}
+.home{
+    display: inline-block;
+    background-color: rgb(199, 192, 183);
+    border-radius: 11px;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+   font-size: 13px;
+    font-weight: 0;
+  
+}
+#Abhilash{
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    color: rgb(255, 128, 0);
+    
+}
+.content{
+  position: absolute; 
+    top: 220px; 
+    left:130px ;
+    color: red;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+.content > p {
+    margin-bottom: 0;
+    
+}
+.container h2{
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+.work{
+    color: white;
+    margin-top: 2px;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+    font-weight: 0;
+}
+hr{
+    width: 29%;
+    position: relative;
+    top: 25px;
+    margin-left: 0;
+}
+img{
+    position: absolute;
+    left: 570px;
+    top: 3px;
+    height: 400px;
+    width: 100%;
+}
+.down{
+    position: relative;
+    top: 40px;
+}
+footer{
+    position: relative;
+    top: 350px;
+    left: 0;
+    color: white;
+    font-size: small;
+}

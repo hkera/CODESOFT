@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#jay {
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    color: red;
+
+}
+
+.mid>* {
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+
+}
+
+h2 {
+    color: red;
+}
+
+.mid {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    background-color: black;
+
+}
+
+.menu-bar a,
+a,
+a,
+a,
+a {
+
+    background-color: antiquewhite;
+    border-radius: 11px;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.menu-bar {
+    position: absolute;
+    left: 400px;
+    top: 120px;
+    padding: 0px 0 0 200px;
+
+}
+
+.education {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+.nsu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+
+}
+
+.skill {
+    position: absolute;
+    left: 800px;
+}
+
+.edu {
+    display: inline-block;
+    background-color: rgb(199, 192, 183);
+    border-radius: 11px;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 0;
+}
+
+/* ul {
+    list-style: none;
+} */
